@@ -52,6 +52,9 @@ keymap.set("n", "<leader>dc", ":DapContinue<CR>", { noremap = true })
 keymap.set("n", "<S-h>", ":tabprevious<CR>", { noremap = true })
 keymap.set("n", "<S-l>", ":tabnext<CR>", { noremap = true })
 
+-- neotree
+keymap.set("n", "<leader>e", ":Neotree toggle<CR>", { noremap = true })
+
 -- buffer
 -- keymap.set("n", "<leader>bd", ":bd<CR>", { noremap = true })
 -- keymap.set("n", "<leader>bD", ":%bd<CR>", { noremap = true })
