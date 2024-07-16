@@ -16,6 +16,9 @@ config.macos_window_background_blur = 30
 
 config.enable_scroll_bar = true
 
+config.window_background_opacity = 0.8
+config.window_decorations = "RESIZE"
+
 config.animation_fps = 60
 config.front_end = "WebGpu"
 config.webgpu_power_preference = "HighPerformance"

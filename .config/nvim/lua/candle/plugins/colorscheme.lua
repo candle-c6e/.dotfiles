@@ -7,6 +7,7 @@ return {
 			nightfox.setup({
 				options = {
 					dim_inactive = true,
+					transparent = true,
 				},
 			})
 
