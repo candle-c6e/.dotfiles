@@ -23,7 +23,9 @@ config.animation_fps = 60
 config.front_end = "WebGpu"
 config.webgpu_power_preference = "HighPerformance"
 
-config.font_size = 16
+-- config.font_size = 16
+config.font_size = 18
+
 config.line_height = 1.2
 config.font = wezterm.font({
 	-- family = "CommitMono Nerd Font",

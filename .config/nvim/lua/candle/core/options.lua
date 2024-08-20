@@ -5,7 +5,7 @@ local opt = vim.opt
 opt.inccommand = "split"
 opt.relativenumber = true
 opt.number = true
-opt.conceallevel = 1
+-- opt.conceallevel = 1
 opt.showtabline = 2
 
 -- fold
