@@ -1,0 +1,39 @@
+import = [
+  # "~/.config/alacritty/catppuccin-mocha.toml"
+  # "~/.config/alacritty/themes/themes/rose-pine.toml"
+  "~/.config/alacritty/themes/themes/tokyo-night.toml"
+]
+
+[colors.primary]
+background = "#000000"
+
+[env]
+TERM = "xterm-256color"
+
+[window]
+opacity = 0.75
+
+[font]
+size = 14.0
+
+[font.bold]
+family = "JetbrainsMono NFM"
+style = "Bold"
+
+[font.bold_italic]
+family = "JetbrainsMono NFM"
+style = "Bold Italic"
+
+[font.italic]
+family = "JetbrainsMono NFM"
+style = "Italic"
+
+[font.normal]
+family = "JetbrainsMono NFM"
+style = "Medium"
+
+[cursor.style]
+shape = "Beam"
+
+[cursor.vi_mode_style]
+shape = "Block"
