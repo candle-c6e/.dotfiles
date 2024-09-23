@@ -53,8 +53,8 @@ keymap.set("n", "<leader>db", ":DapToggleBreakpoint<CR>", { noremap = true })
 keymap.set("n", "<leader>dc", ":DapContinue<CR>", { noremap = true })
 
 -- tabline
-keymap.set("n", "<S-h>", ":tabprevious<CR>", { noremap = true })
-keymap.set("n", "<S-l>", ":tabnext<CR>", { noremap = true })
+keymap.set("n", "{", ":tabprevious<CR>", { noremap = true })
+keymap.set("n", "}", ":tabnext<CR>", { noremap = true })
 
 -- neotree
 keymap.set("n", "<leader>e", ":Neotree reveal toggle<CR>", { noremap = true })
